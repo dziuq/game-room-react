@@ -99,3 +99,112 @@ body {
     color: #ff00ff;
     text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
 }
+
+.nav-links a:active {
+    transform: translateY(4px);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0a0a0a;
+}
+
+.neon-text {
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: 0 0 5px #00aaff, 0 0 10px #00aaff, 0 0 20px #00aaff;
+    margin-bottom: 20px;
+    display:flex;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.neon-input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 0 5px #00aaff;
+    box-shadow: 0 0 5px #00aaff;
+    width: 250px;
+}
+
+.neon-button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ff0000;
+    text-shadow: 0 0 5px #ffffff;
+    box-shadow: 0 4px #990000, 0 0 10px #ff0000;
+    transition: 0.3s;
+    transform: translateY(-2px);
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+}
+
+.neon-button:hover {
+    background-color: #cc0000;
+    box-shadow: 0 6px #660000, 0 0 15px #ff0000;
+    transform: translateY(-4px);
+}
+
+.neon-button:active {
+    transform: translateY(4px);  
+    box-shadow: 0 0 15px #ff0000, 0 0 10px #990000;  
+}
+
+.button-text {
+    display: block;
+    line-height: 1.2;
+}
+.register-form{
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.neon-button-signup{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ff0000;
+    text-shadow: 0 0 5px #ffffff;
+    box-shadow: 0 4px #990000, 0 0 10px #ff0000;
+    transition: 0.3s;
+    transform: translateY(-2px);
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    margin-left: 15px;
+}
