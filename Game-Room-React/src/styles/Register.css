@@ -1,0 +1,78 @@
+.register-container {
+    font-family: 'Press Start 2P', cursive;
+    background: #0c0c2c;
+    color: #ffc600;
+    padding: 40px;
+    max-width: 500px;
+    margin: 40px auto;
+    border: 3px solid #0050ff;
+    box-shadow: 0 0 20px #00f0ff;
+    text-align: center;
+  }
+  
+  .logo-text {
+    font-size: 32px;
+    color: #ffc600;
+    text-shadow: 2px 2px #ff00b8;
+    margin-bottom: 20px;
+  }
+  
+  .form-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .register-form label {
+    color: #ff66cc;
+    font-size: 10px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .register-form input {
+    background: #101050;
+    border: 2px solid #3399ff;
+    color: #fff;
+    padding: 10px;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+    width: 100%;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .row div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .red-message{
+    color: red;
+  }
+  
+  button {
+    margin-top: 20px;
+    background: #ffc600;
+    color: #000;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background: #00f0ff;
+    color: #000;
+  }
